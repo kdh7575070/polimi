@@ -17,3 +17,10 @@ $ pip install pillow
 $ pip install cv2
 $ pip install np
 ```
+
+## Pre-processing
+* click the file "code/preprocessing.py"
+
+## Modeling
+
+## CNN
