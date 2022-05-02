@@ -31,7 +31,7 @@ if not os.path.isdir(rot_path):
 bin_path = "../data/binary_data/" 
 
 if not os.path.isdir(bin_path):
-    os.mkdir(bin_path)
+    os.mkdir(bin_path) 
 
 final_path = "../data/final_data/" 
 
