@@ -26,3 +26,5 @@ $ pip install sklearn
 ## Modeling
 
 ## CNN
+* click the file "code/cnn_makedata.py"
+* click the file "code/cnn_modeling.py" <- recommend to do it via colab
