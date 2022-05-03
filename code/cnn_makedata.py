@@ -30,10 +30,12 @@ for idx, cat in enumerate(categories):
     for idx, file in enumerate(files):
         img = Image.open(file)
         img = img.resize((image_w, image_h))
+        # print('img->', img)
         data = np.asarray(img)
+        # print('data->', data)
         X.append(data)
         Y.append(label)
-        if idx % 10 == 0:
+        if idx % 50 == 0:
             print(idx, "\n", data)
 X = np.array(X)
 Y = np.array(Y)
