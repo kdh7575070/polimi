@@ -31,7 +31,7 @@ if not os.path.isdir(rot_path):
 bin_path = "../data/binary_data/" 
 
 if not os.path.isdir(bin_path):
-    os.mkdir(bin_path) 
+    os.mkdir(bin_path)
 
 final_path = "../data/final_data/" 
 
@@ -189,11 +189,17 @@ for idx, file in enumerate(files):
     width, height = img.size
     crop_image = img.crop((65,65,375,375))
 
-    ##### (4) save to files #####
+    ##### (4) save to files ##### 
     if idx+1 <= 9:
-        crop_image.save(final_path + '0' + str(idx+1) + '.bmp')
+        if idx+1 in [18,23,24,26,27,28,29,30,35,36,37,38,39,40,42,44,45,46,47,49]:
+            crop_image.save(final_path + '1/0' + str(idx+1) + '.bmp')
+        else: # 1-> defect 0-> perfect
+            crop_image.save(final_path + '0/0' + str(idx+1) + '.bmp')            
     else :
-        crop_image.save(final_path + str(idx+1) + '.bmp')
+        if idx+1 in [18,23,24,26,27,28,29,30,35,36,37,38,39,40,42,44,45,46,47,49]:
+            crop_image.save(final_path + '1/' + str(idx+1) + '.bmp')
+        else: # 1-> defect 0-> perfect
+            crop_image.save(final_path + '0/' + str(idx+1) + '.bmp')
 
     #save to the list for final cropped image
     img = img.convert("L") #turn to np
