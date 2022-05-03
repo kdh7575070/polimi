@@ -16,6 +16,8 @@ $ git clone https://github.com/kdh7575070/polimi_22_QDA.git
 $ pip install pillow
 $ pip install cv2
 $ pip install np
+$ pip install tensorflow
+$ pip install sklearn
 ```
 
 ## Pre-processing
