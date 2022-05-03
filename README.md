@@ -18,6 +18,7 @@ $ pip install cv2
 $ pip install np
 $ pip install tensorflow
 $ pip install sklearn
+$ pip install matplotlib
 ```
 
 ## Pre-processing
