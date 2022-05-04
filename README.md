@@ -24,7 +24,7 @@ $ pip install matplotlib
 ## Pre-processing
 * click the file "code/0_preprocessing.py"
 
-## Main Model
+## Main model
 
 ## Other models
 * click the file "code/2_makedata.py"
