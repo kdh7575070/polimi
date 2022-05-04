@@ -22,10 +22,11 @@ $ pip install matplotlib
 ```
 
 ## Pre-processing
-* click the file "code/preprocessing.py"
+* click the file "code/0_preprocessing.py"
 
-## Modeling
+## Main Model
 
-## CNN
-* click the file "code/cnn_makedata.py"
-* click the file "code/cnn_modeling.py" <- recommend to do it via colab
+## Other models
+* click the file "code/2_makedata.py"
+* click the file "code/2_modeling_randomforest.py"
+* click the file "code/2_modeling_cnn.py" <- recommend to do it via colab
