@@ -14,19 +14,23 @@
 ```shell
 $ git clone https://github.com/kdh7575070/polimi_22_QDA.git
 $ pip install pillow
-$ pip install cv2
-$ pip install np
+$ pip install opencv-python
+$ pip install numpy
+$ pip install pandas
 $ pip install tensorflow
-$ pip install sklearn
+$ pip install scikit-learn
 $ pip install matplotlib
+$ pip install keras
 ```
 
 ## Pre-processing
 * click the file "code/0_preprocessing.py"
 
 ## Main model
+* click the file "code/1_pca_regression.py"
+* click the file "code/1_pca_controlchart.py"
 
 ## Other models
 * click the file "code/2_makedata.py"
 * click the file "code/2_modeling_randomforest.py"
-* click the file "code/2_modeling_cnn.py" <- recommend to do it via colab
+* click the file "code/2_modeling_cnn.py" <- recommend to execute it via colab
